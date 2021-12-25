@@ -6,7 +6,8 @@ import (
 
 func main() {
 
-	fmt.Println("Написание простого цикла")
+	fmt.Println("Сумма двух чисел по единице")
+	fmt.Println("----------------")
 
 	fmt.Println("Введите первое число:")
 	var numOne int

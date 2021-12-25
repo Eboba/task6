@@ -7,6 +7,7 @@ import (
 func main() {
 
 	fmt.Println("Написание простого цикла")
+	fmt.Println("----------------")
 
 	fmt.Println("Введите число:")
 	var num int
