@@ -15,8 +15,14 @@ func main() {
 	signal7 := true
 	signal10 := true
 
-	for n := 0; n < 100; n = n + 1 {
+	for {
+
 		fmt.Println("Этаж:", coordinate, "   Пассажиров:", passenger)
+
+		if (signal4 == false && signal7 == false && signal10 == false) && coordinate == 1 {
+			break
+		}
+
 		coordinate = lift + coordinate
 
 		if coordinate == 24 {
