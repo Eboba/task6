@@ -38,19 +38,18 @@ func main() {
 		if appleBasketone != basketOne {
 			appleBasketone++
 			fmt.Println("В первой корзине", appleBasketone, "из", basketOne)
+			continue
 		}
 
 		if appleBaskettwo != basketTwo {
 			appleBaskettwo++
 			fmt.Println("Во второй корзине", appleBaskettwo, "из", basketTwo)
+			continue
 		}
 
 		if appleBasketthree != basketThree {
 			appleBasketthree++
 			fmt.Println("В третьей корзине", appleBasketthree, "из", basketThree)
-		}
-
-		if appleBasketone+appleBaskettwo+appleBasketthree != basketOne+basketTwo+basketThree {
 			continue
 		}
 
